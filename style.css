@@ -520,13 +520,13 @@ textarea{
 
 .contact_text_container {
     width: 100%;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contact_text_wrapper {
-    margin-top: 100px;
     margin-bottom: 50px;
     max-width: 400px;
 }
@@ -807,41 +807,18 @@ textarea{
 	.left{
 		height: 200px;
 	}
-	.info_container_wrapper {
-		margin-top: 200px;
-	}
-	.info_container_wrapper2 {
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
-	}
-	.info_container_img {
-		margin-bottom: 75px;
-	}
+
 }
 
-@media screen and (max-width: 593px){
-	.info_container_wrapper {
-		margin-top: 200px;
-		flex-direction: column;
-	}
-	.info_container_text {
-		margin-bottom: 50px;
-	}
-}
 
 @media screen and (min-width: 881px) {
-.info_container_img img {
-	margin-right: 75px;
-	margin-left: 20px;
-}
 
-.left{
-	background: url("assets/bg2.jpg") no-repeat center;
-	background-size: cover;
-    height: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 10px;
-}
+    .left{
+        background: url("assets/bg2.jpg") no-repeat center;
+        background-size: cover;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
 }
