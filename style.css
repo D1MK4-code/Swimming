@@ -518,9 +518,32 @@ textarea{
 	height: 128px;
 }
 
-.margin_footer {
-    margin-top: 100px;
+.contact_text_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.contact_text_wrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 400px;
+}
+
+.contact_text_wrapper p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact_text_wrapper p span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* .margin_footer {
+    margin-top: 100px;
+} */
 
 /* Footer */
 
