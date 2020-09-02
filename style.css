@@ -283,7 +283,7 @@
 }
 
 .services .container .serviceBx img {
-   max-width: 70px;
+   max-width: 85px;
 }
 
 .services .container .serviceBx h2 {
@@ -820,6 +820,10 @@ textarea{
         background-color: rgb(59, 122, 240);
         color: #fff;
     }
+
+    .services .container .serviceBx img {
+        max-width: 65px;
+     }
 }
 
 @media (min-width: 851px) {
