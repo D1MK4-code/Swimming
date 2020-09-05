@@ -339,7 +339,7 @@ header{
 
     .nav-link:hover > a{
         transform: scale(1);
-        background-color: #50a9d6;
+        background-color: rgb(59, 122, 240);
     }
 
     .dropdown, .dropdown.second{
@@ -351,7 +351,7 @@ header{
         pointer-events: auto;
         width: 100%;
         padding: 0;
-        background-color: #50a9d6;
+        background-color: rgb(59, 122, 240);
         display: none;
         margin: 10px 0 0 50px;
 
@@ -389,14 +389,14 @@ header{
 
     .arrow{
         z-index: 1;
-        background-color: #69bde7;
+        background-color: rgb(59, 122, 240);
         left: 10%;
         transform: scale(1.1) rotate(45deg);
         transition: .5s;
     }
 
     .nav-link:hover .arrow{
-        background-color: #50a9d6;
+        background-color: rgb(59, 122, 240);
     }
 
     .dropdown .dropdown .arrow{
@@ -404,11 +404,11 @@ header{
     }
 
     .dropdown-link:hover > a{
-        background-color: #3a91bd;
+        background-color: rgb(59, 122, 240);
     }
 
     .dropdown-link:first-child:hover ~ .arrow{
-        background-color: #50a9d6;
+        background-color: rgb(59, 122, 240);
     }
 
     .nav-link > a > i{
