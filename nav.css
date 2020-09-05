@@ -296,7 +296,7 @@ header{
         top: 45px;
         left: 0;
         width: 100%;
-        background-color: #69bde7;
+        background-color: #fff;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -413,12 +413,12 @@ header{
     .nav-link > a > i{
         font-size: 1.1rem;
         transform: rotate(-90deg);
-        transition: .7s;
+        transition: .2s;
     }
 
     .dropdown i{
         font-size: 1rem;
-        transition: .7s;
+        transition: .2s;
     }
 
     .nav-links .social-icon {
