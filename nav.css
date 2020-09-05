@@ -64,7 +64,7 @@ header{
     color: #000;
     font-size: 2rem;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 3rem;
 }
@@ -87,13 +87,13 @@ header{
     line-height: 3rem;
     color: #000;
     padding: 0 .8rem;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     transition: .5s;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 .nav-link > a > i{
@@ -293,7 +293,7 @@ header{
     .nav-btn{
         position: fixed;
         height: calc(100vh - 3rem);
-        top: 50px;
+        top: 45px;
         left: 0;
         width: 100%;
         background-color: #69bde7;
@@ -351,8 +351,10 @@ header{
         pointer-events: auto;
         width: 100%;
         padding: 0;
-        background-color: #3183ac;
+        background-color: #50a9d6;
         display: none;
+        margin: 10px 0 0 50px;
+
     }
 
     .nav-link:hover > .dropdown,
@@ -367,8 +369,8 @@ header{
 
     .dropdown-link > a{
         background-color: transparent;
-        color: #fff;
-        padding: 1.2rem 2rem;
+        color: #000;
+        padding: 1.6rem 2rem;
         line-height: 1;
     }
 
@@ -419,13 +421,23 @@ header{
         transition: .7s;
     }
 
-    .log-sign{
-        flex: initial;
-        width: 100%;
-        padding: 1.5rem 1.9rem;
-        justify-content: flex-start;
-        opacity: 0;
-        transform: translateY(15px);
+    .nav-links .social-icon {
+        display: none;
+        margin-bottom: 5px;
+    }
+    .nav-links .social-item {
+        display: none;
+
+        height: 20px;
+        width: 20px;
+        margin: 0 10px;
+    }
+    .nav-links .social-item img {
+        display: none;
+
+        transition: .3s ease filter;
+        height: 20px;
+        width: 20px;
     }
 }
 
