@@ -201,7 +201,7 @@
 }
 
 #about .col-left {
-	width: 350px;
+	width: 250px;
     /* height: 360px; */
 }
 #about .col-right {
@@ -700,7 +700,11 @@ textarea{
 	}
 	.left{
 		height: 200px;
-	}
+    }
+
+    .about2 .col-left {
+        margin-top: -70px;
+    }
 
 }
 
