@@ -85,6 +85,14 @@
     background: #fff;
     padding: 100px;
     text-align: center;
+    margin-top: -120px;
+}
+
+.services2 {
+    background: #fff;
+    padding: 100px;
+    text-align: center;
+    margin-top: 0px;
 }
 
 .heading_container {
@@ -92,6 +100,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .services .heading {
@@ -111,14 +120,13 @@
    justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
-   /* margin-top: 60px; */
 }
 
 .services .container .serviceBx {
    position: relative;
    background: #fff;
    width: 350px;
-   height: 400px;
+   height: 350px;
    padding: 20px 10px;
    display: flex;
    justify-content: center;
@@ -127,6 +135,20 @@
    /* border: 1 px solid #000; */
    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
 }
+
+.services .container .serviceBx2 {
+    position: relative;
+    background: #fff;
+    width: 350px;
+    height: 200px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 15px;
+    /* border: 1 px solid #000; */
+    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
+ }
 
 .services .container .serviceBx img {
    max-width: 85px;
@@ -166,7 +188,8 @@
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px 20px;
+    padding: 100px 20px;
+    margin-top: -50px;
 }
 
 #about .about2 {
@@ -462,7 +485,7 @@ textarea{
 /* Footer */
 
 #footer {
-    background-image: linear-gradient(90deg, #055991 20%, #fff 100%);
+    background-image: linear-gradient(90deg,rgb(59, 122, 240) 20%, #fff 100%);
 }
 
 #footer .footer {
@@ -556,7 +579,13 @@ textarea{
 .services .container .serviceBx {
     margin: 20px;
     width: 250px;
-    height: 320px;
+    height: 300px;
+}
+
+.services .container .serviceBx2 {
+    margin: 20px;
+    width: 250px;
+    height: 150px;
 }
 
 /* Offer2 */
@@ -627,18 +656,22 @@ textarea{
 	#about .about {
 		flex-direction: row;
 		justify-content: center;
-		align-items: flex-start;
+        align-items: flex-start;
+        /* margin-top: -100px; */
+
 	}
 	#about .about2 {
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
+        align-items: center;
+        margin-top: 50px;
+    	padding: 50px 20px;
+
 	}
 	#about .col-left {
-		width: 600px;
+		width: 500px;
 		/* height: 500px; */
-        margin-left: 60px;
-        margin-right: 60px;
+        margin: 0 60px 0 60px;
 	}
 	#about .col-left .about-img {
 		margin-top: 0px;
@@ -648,7 +681,11 @@ textarea{
 		text-align: left;
         /* padding: 30px; */
         max-width: 400px;
-	}
+    }
+
+    .about2 .col-right {
+        margin-top: -100px;
+    }
 
 }
 
