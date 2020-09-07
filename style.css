@@ -715,19 +715,6 @@ thead tr th {
 
 @media screen and (max-width: 920px) {
 
-    /* Hero */
-
-    .hero_section {
-        background: url(/assets/bg2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        opacity: 0.9;
-}
-
-.hero_text_container {
-    margin: 185px 0 0 50px;
-}
 
 /* Services */
 
@@ -801,8 +788,26 @@ thead tr th {
 
 }
 
+@media (min-width: 451px) and (max-width: 920px) {
 
-@media screen and (max-width: 786px) {
+        /* Hero */
+
+        .hero_section {
+            background: url(/assets/bg2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            opacity: 0.9;
+    }
+
+    .hero_text_container {
+        margin: 185px 0 0 50px;
+    }
+
+}
+
+
+@media (min-width: 451px) and (max-width: 786px) {
     .hero_text_container {
         margin: 130px 0 0 30px;
         max-width: 40vw;
@@ -817,6 +822,10 @@ thead tr th {
         font-size: 2rem;
         color: #fff;
     }
+
+}
+
+@media screen and (max-width: 786px) {
 
     .services .heading {
         /* display: block; */
