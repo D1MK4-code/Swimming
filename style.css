@@ -948,11 +948,10 @@ thead tr th {
 @media screen and (max-width: 400px) {
 
     .hero_section {
-        background: url(/assets/bg3.jpg);
+        background: url(/assets/bg3.jpg) no-repeat fixed;
         /* background-size: cover; */
-        background-repeat: no-repeat;
         /* background-attachment: fixed; */
-        opacity: 0.9;
+        -webkit-background-size: cover;
 }
 
     table, td {
