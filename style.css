@@ -958,7 +958,8 @@ thead tr th {
         background-size:100% 100%;
         background-repeat:no-repeat;
         -webkit-background-size: cover;
-        opacity: 0.3;
+        filter: blur(8px)
+
 }
 
     table, td {
