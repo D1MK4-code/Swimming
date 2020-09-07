@@ -197,7 +197,7 @@
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px 20px;
+    padding: 100px 20px;
 }
 
 #about .col-left {
@@ -220,6 +220,7 @@
 #about img {
     border-radius: 15px;
 }
+
 
 /* Gallery */
 
@@ -554,6 +555,88 @@ textarea{
     font-weight: 600;
 }
 
+/* Schedule */
+
+.schedule_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.schedule_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    margin-top: -50px;
+    line-height: 3rem;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.schedule_container2 {
+    margin-top: 70px;
+}
+
+.schedule_container h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.schedule_container p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.schedule_container h3 span {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(59, 122, 240);
+}
+
+.schedule_container p span {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(59, 122, 240);
+}
+
+table,
+td {
+    width: 350px;
+    font-size: 1.4rem;
+}
+
+td {
+  	padding: 5px;
+    border: 1px solid #333;
+  	text-align: center;
+}
+
+th {
+  background-color: rgb(59, 122, 240);
+  border: 1px solid #333;
+  color: #fff;
+}
+
+thead, tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+thead tr th {
+    font-size: 1.8rem;
+    padding: 5px;
+}
+
+.pricing {
+    font-weight: 600;
+}
+
 
 
 /* Footer */
@@ -742,6 +825,33 @@ textarea{
     .services .container .serviceBx img {
         max-width: 65px;
      }
+
+     /* Schedule */
+
+     .schedule_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 75px;
+        margin-top: -50px;
+        line-height: 3rem;
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    .schedule_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .schedule_container2 {
+        margin-top: -70px;
+    }
+
 }
 
 @media (min-width: 851px) {
@@ -772,7 +882,7 @@ textarea{
 		flex-direction: row;
 		justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 20px;
     	padding: 50px 20px;
 
 	}
@@ -794,6 +904,8 @@ textarea{
     .about2 .col-right {
         margin-top: -100px;
     }
+
+
 
 }
 
@@ -828,4 +940,13 @@ textarea{
         border-top-right-radius: 0px;
         border-bottom-left-radius: 10px;
     }
+}
+
+@media screen and (max-width: 400px) {
+
+table, td {
+    width: 250px;
+    font-size: 1.4rem;
+}
+
 }
