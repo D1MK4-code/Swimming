@@ -949,7 +949,7 @@ thead tr th {
 
     .hero_section {
         background: url(/assets/bg3.jpg);
-        background-size: cover;
+        /* background-size: cover; */
         background-repeat: no-repeat;
         background-attachment: fixed;
         opacity: 0.9;
