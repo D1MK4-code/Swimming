@@ -804,7 +804,7 @@ thead tr th {
 }
 
 
-@media (min-width: 451) and (max-width: 786px) {
+@media  (max-width: 786px) {
     .hero_text_container {
         margin: 130px 0 0 30px;
         max-width: 40vw;
