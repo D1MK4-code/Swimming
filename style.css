@@ -948,7 +948,7 @@ thead tr th {
 @media (max-width: 450px) {
 
     .hero_section {
-        background: url(/assets/bg3.jpg) no-repeat;
+        background: url(/assets/bg.jpg) no-repeat;
         background-position: fixed;
         /* background-size: cover; */
         background-attachment:fixed;
@@ -958,7 +958,7 @@ thead tr th {
         background-size:100% 100%;
         background-repeat:no-repeat;
         -webkit-background-size: cover;
-        opacity: 1;
+        opacity: 0.3;
 }
 
     table, td {
