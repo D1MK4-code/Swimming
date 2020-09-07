@@ -945,7 +945,7 @@ thead tr th {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
     .hero_section {
         background: url(/assets/bg4.jpg) no-repeat;
