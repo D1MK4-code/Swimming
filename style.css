@@ -78,6 +78,12 @@
     color: #fff;
 }
 
+.hero_text_container h1 span.purple_span {
+    color: rgb(59, 122, 240);
+    font-size: 3.8rem;
+    font-weight: 800;
+}
+
 
 /* Services */
 
@@ -707,7 +713,7 @@ thead tr th {
 /* Media querry section */
 
 
-@media (min-width: 401px) and (max-width: 920px) {
+@media (min-width: 451px) and (max-width: 920px) {
 
     /* Hero */
 
@@ -798,7 +804,7 @@ thead tr th {
 }
 
 
-@media screen and (max-width: 786px) {
+@media (min-width: 451) and (max-width: 786px) {
     .hero_text_container {
         margin: 130px 0 0 30px;
         max-width: 40vw;
@@ -948,7 +954,7 @@ thead tr th {
 @media (max-width: 450px) {
 
     .hero_section {
-        background: url(/assets/bg.jpg) no-repeat;
+        background: url(/assets/bg4.jpg) no-repeat;
         background-position: fixed;
         /* background-size: cover; */
         background-attachment:fixed;
@@ -958,9 +964,35 @@ thead tr th {
         background-size:100% 100%;
         background-repeat:no-repeat;
         -webkit-background-size: cover;
-        filter: blur(8px)
-
 }
+
+    .hero_text_container {
+        /* position: absolute; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 500;
+        margin: 150px auto;
+        padding: 25px;
+    }
+
+    .hero_text_container h1{
+        font-size: 3rem;
+        color: #fff;
+    }
+
+    .hero_text_container h1 span{
+        font-size: 2.5rem;
+        color: #fff;
+    }
+
+    .hero_text_container h1 span.purple_span {
+        color: rgb(59, 122, 240);
+        font-size: 3.2rem;
+        font-weight: 800;
+    }
 
     table, td {
         width: 250px;
