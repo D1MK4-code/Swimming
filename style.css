@@ -713,7 +713,7 @@ thead tr th {
 /* Media querry section */
 
 
-@media (min-width: 451px) and (max-width: 920px) {
+@media screen and (max-width: 920px) {
 
     /* Hero */
 
@@ -728,8 +728,6 @@ thead tr th {
 .hero_text_container {
     margin: 185px 0 0 50px;
 }
-
-
 
 /* Services */
 
@@ -804,7 +802,7 @@ thead tr th {
 }
 
 
-@media  (max-width: 786px) {
+@media screen and (max-width: 786px) {
     .hero_text_container {
         margin: 130px 0 0 30px;
         max-width: 40vw;
