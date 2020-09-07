@@ -707,7 +707,7 @@ thead tr th {
 /* Media querry section */
 
 
-@media screen and (max-width: 920px) {
+@media (min-width: 401px) and (max-width: 920px) {
 
     /* Hero */
 
