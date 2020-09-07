@@ -687,6 +687,15 @@ thead tr th {
 	font-size: 1.3rem;
 }
 
+/* Animation classes */
+
+.first_appear {
+    animation-delay: 0.2s;
+}
+
+.second_appear {
+    animation-delay: 0.6s;
+}
 
 /* Keyframes */
 
