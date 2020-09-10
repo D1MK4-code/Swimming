@@ -434,6 +434,7 @@ textarea{
 .offer2 {
     position: relative;
     min-height: 100%;
+    padding-bottom: 80px;
 }
 
 .offer2_title_wrapper {
@@ -588,6 +589,7 @@ textarea{
     justify-content: center;
     align-items: flex-start;
     margin-top: -35px;
+    padding-bottom: 80px;
 }
 
 .schedule_container {
