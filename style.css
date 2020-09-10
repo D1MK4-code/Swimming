@@ -964,7 +964,8 @@ thead tr th {
 @media screen and (max-width: 880px){
 	.container_contact {
 		padding: 10px 20px;
-		flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        margin-top: 0px;
 	}
 	.contact-box{
 		grid-template-columns: 1fr;
