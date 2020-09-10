@@ -227,6 +227,22 @@
     border-radius: 15px;
 }
 
+#about .person_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    line-height: 2.7rem;
+}
+
+#about .person_about h2 {
+    font-size: 2rem;
+}
+
+#about .person_about p {
+    font-size: 1.5rem;
+}
 
 /* Gallery */
 
@@ -955,6 +971,8 @@ thead tr th {
     .about2 .col-right {
         margin-top: -100px;
     }
+
+
 
 
 
