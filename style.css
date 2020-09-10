@@ -271,6 +271,7 @@ body{
     padding: 20px 50px;
     margin: 0 auto;
     border-radius: 10px;
+    margin-top: 100px;
 }
 
 .container_contact:after{
@@ -405,6 +406,7 @@ textarea{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .contact_text_wrapper {
@@ -428,6 +430,11 @@ textarea{
 
 
 /* Offer section */
+
+.offer2 {
+    position: relative;
+    min-height: 100%;
+}
 
 .offer2_title_wrapper {
     display: flex;
@@ -494,10 +501,12 @@ textarea{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 100px;
-    margin-bottom: 200px;
-    padding: 20px;
+    /* margin-top: 100px; */
+    padding: 100px 20px;
+    position: relative;
+    min-height: 100%;
 }
+
 
 .offer4_about {
     align-items: center;
@@ -540,9 +549,12 @@ textarea{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 75px;
-    margin-top: -50px;
+    /* margin-bottom: 75px; */
+    /* margin-top: -50px; */
     line-height: 3rem;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px;
 }
 
 .offer5 h3{
@@ -559,6 +571,12 @@ textarea{
     font-size: 1.7rem;
     text-align: center;
     font-weight: 600;
+}
+
+.about_footer_wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 80px;
 }
 
 /* Schedule */
@@ -652,10 +670,15 @@ thead tr th {
 
 #footer {
     background-image: linear-gradient(90deg,rgb(59, 122, 240) 20%, #fff 100%);
+    z-index: 10000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+
 }
 
 #footer .footer {
-    min-height: 60px;
     display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
@@ -750,6 +773,7 @@ thead tr th {
 
 /* Offer2 */
 
+
 .offer2_container {
     flex-direction: column;
     justify-content: center;
@@ -770,7 +794,7 @@ thead tr th {
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     padding: 20px;
 }
 
